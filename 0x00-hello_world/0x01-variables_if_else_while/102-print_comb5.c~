@@ -1,0 +1,29 @@
+#include <stdo.h>
+
+/**
+*Printing 3 digits number combinations
+*
+*/
+
+int main(void){
+  int th;
+  int h;
+  int t;
+  int o;
+
+  for(h=0;h<99;h++){
+    for(t=h+1;t<=99;t++){
+      for(o=t;o<=99;0++){
+    putchaer(h+'0');
+    putchar(t+'0');
+    putchar(o+'0');
+  }
+  if(h<98){
+    putchar(',');
+    putchar(' ');
+  }
+    }
+  }
+  putchar('\n');
+  return 0;
+}
